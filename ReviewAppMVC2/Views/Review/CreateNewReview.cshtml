@@ -1,0 +1,41 @@
+﻿@model ReviewAppMVC2.BLL.VMs.ReviewVM.ReviewCreate
+
+@{
+    ViewData["Title"] = "Write review";
+}
+
+<h1>Write review</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Review" asp-action="CreateReview">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input type="hidden" value=@Guid.NewGuid() asp-for="UserId" class="control-label" />
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Username" value=@User.Identity.Name class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="ProductId" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label asp-for="Score" class="control-label"></label>
+                <input asp-for="Score" class="form-control" min="0" max="5" />
+                <span asp-validation-for="Score" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Text" class="control-label"></label>
+                <textarea asp-for="Text" class="form-control"></textarea>
+                <span asp-validation-for="Text" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <button asp-controller="Review" asp-action="CreateReview" asp-route-id="@Model.ProductId" type="submit" class="btn btn-primary">Create review</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a class="btn btn-primary" asp-controller="Product" asp-action="GetProductById" asp-route-id="@Model.ProductId">Back</a>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.deps.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.csprojAssemblyReference.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.AssemblyInfoInputs.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.AssemblyInfo.cs
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.runtimeconfig.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.runtimeconfig.dev.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.genruntimeconfig.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.pdb
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.csproj.CoreCompileInputs.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.Models\obj\Debug\netcoreapp3.1\ReviewAppMVC2.Models.pdb

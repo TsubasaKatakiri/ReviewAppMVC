@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ReviewAppMVC2.BLL.VMs.ProductVM.ProductData>
+
+@{
+    ViewData["Title"] = "Products";
+}
+<div class="container">
+    <h1>Products</h1>
+
+    <p>
+        <a class="btn btn-primary" asp-controller="Product" asp-action="CreateNewProduct">Create new product</a>
+    </p>
+
+    @foreach (var item in Model)
+    {
+        <div class="card mb-3">
+            <div class="card-header">
+                <h4>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </h4>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+
+                        </div>
+                        <div class="col-sm-7">
+                            <p class="font-weight-light font-italic">Category: <span>@Html.DisplayFor(modelItem => item.Category)</span></p>
+                            <h3 class="text-danger font-weight-bold">USD $@Html.DisplayFor(modelItem => item.Price)</h3>
+                            <p>About product:</p>
+                            <p class="text-black-50">@Html.DisplayFor(modelItem => item.Description)</p>
+                        </div>
+                        <div class="col-sm-2">
+                            @Html.ActionLink("Details", "GetProductById", new { id = item.ProductId })
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

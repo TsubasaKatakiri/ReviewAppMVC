@@ -1,0 +1,90 @@
+﻿@model ReviewAppMVC2.BLL.VMs.ProductVM.ProductData
+
+@{
+    ViewData["Title"] = "Product";
+}
+<div class="container">
+    <a class="btn btn-primary mb-3" asp-controller="Product" asp-action="GetAllProducts">Back</a>
+
+    <h1> @Html.DisplayFor(model => model.Name)</h1>
+
+    <div class="card">
+        <div class="card-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5">
+
+                    </div>
+                    <div class="col-sm-7">
+                        <h4>@Html.DisplayFor(model => model.Name)</h4>
+                        <p class="font-weight-light font-italic">Category: <span>@Html.DisplayFor(model => model.Category)</span></p>
+                        <h3 class="text-danger font-weight-bold">USD $@Html.DisplayFor(model => model.Price)</h3>
+                        <p>About product:</p>
+                        <p class="text-black-50">@Html.DisplayFor(model => model.Description)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-5">
+        <div class="col-10">
+            <h4>Product reviews</h4>
+        </div>
+        <div class="col-2 d-flex justify-content-end">
+            <a class="btn btn-primary" asp-controller="Review" asp-action="CreateNewReview" asp-route-id="@Model.ProductId">Write review</a>
+        </div>
+    </div>
+
+        @foreach (var i in Model.Reviews)
+        {
+    <div class="card mb-3">
+
+        <div class="card-header">
+            <h5>
+                @Html.DisplayFor(modelItem => i.Username)
+            </h5>
+            <p>
+                Score:<span>@Html.DisplayFor(modelItem => i.Score)</span>/5 On <span>@Html.DisplayFor(modelItem => i.ProductName)</span>
+                Date: <span>@Html.DisplayFor(modelItem => i.DateCreated)</span>
+            </p>
+        </div>
+
+        <div class="card-body">
+            <p>@Html.DisplayFor(modelItem => i.Text)</p>
+        </div>
+
+        <div class="card-footer">
+            <a class="btn btn-primary" asp-controller="Comment" asp-action="CreateNewComment"
+               asp-route-productId="@Model.ProductId" asp-route-reviewId="@i.ReviewId">Comment this</a>
+        </div>
+
+        <ul class="list-group list-group-flush">
+
+            @foreach (var c in i.Comments)
+            {
+                <li>
+                    <div class="card ml-5">
+
+                        <div class="card-header">
+                            <h6>
+                                @Html.DisplayFor(modelItem => c.Username)
+                            </h6>
+                            <p>
+                                On <span>@Html.DisplayFor(modelItem => c.ProductName)</span>
+                                Date: <span>@Html.DisplayFor(modelItem => c.DateCreated)</span>
+                            </p>
+                        </div>
+
+                        <div class="card-body">
+                            <p>@Html.DisplayFor(modelItem => c.Text)</p>
+                        </div>
+                    </div>
+                </li>
+            }
+
+        </ul>
+    </div>
+    }
+
+</div>

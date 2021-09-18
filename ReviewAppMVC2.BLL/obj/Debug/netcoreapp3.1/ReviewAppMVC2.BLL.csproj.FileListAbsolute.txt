@@ -1,0 +1,17 @@
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.deps.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.csprojAssemblyReference.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.AssemblyInfoInputs.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.AssemblyInfo.cs
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.runtimeconfig.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.runtimeconfig.dev.json
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.genruntimeconfig.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.pdb
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.csproj.CoreCompileInputs.cache
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.pdb
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.DAL.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.dll
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.DAL.pdb
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\bin\Debug\netcoreapp3.1\ReviewAppMVC2.Models.pdb
+C:\Users\Tsubasa Katakiri\source\repos\ReviewAppMVC2\ReviewAppMVC2.BLL\obj\Debug\netcoreapp3.1\ReviewAppMVC2.BLL.csproj.CopyComplete
